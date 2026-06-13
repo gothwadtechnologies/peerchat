@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>GrixChat | Real-Time Secure Messaging & AI</title>
+
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.json" crossorigin="use-credentials" />
+
+    <!-- Color Scheme -->
+    <meta name="color-scheme" content="light dark" />
+
+    <!-- Theme Color and Device Status/Navigation Bar Styling -->
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#202124" media="(prefers-color-scheme: dark)" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-navbutton-color" content="#ffffff" />
+    <meta name="navigation-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <meta name="navigation-color" content="#202124" media="(prefers-color-scheme: dark)" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://grixchat.gothwad.workers.dev/" />
+
+    <!-- Mobile App Settings -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="GrixChat" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="screen-orientation" content="portrait" />
+    <meta name="full-screen" content="yes" />
+    <meta name="browsermode" content="application" />
+    <meta name="orientation" content="portrait" />
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="GrixChat | Real-Time Secure Messaging & AI" />
+    <meta
+      name="description"
+      content="GrixChat is a secure real-time messaging platform. Features HD reels, private stories, advanced Grix AI, and end-to-end secure communication."
+    />
+
+    <meta name="application-name" content="GrixChat" />
+    <meta name="referrer" content="origin-when-cross-origin" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta
+      name="keywords"
+      content="GrixChat, grixchat, Grix, secure chat, Grix AI, reels, stories, messenger app, real-time chat, chatting app"
+    />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Site Verification -->
+    <meta name="google-site-verification" content="W2ez42lwANlmcKz6ng6zAXdHwiwbI-h1OohQlI3mqLg" />
+    <meta name="google-site-verification" content="u5SDmFeDVSHcW7SuAyMkk_ZzKdreGh6ocFRu133OkVo" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://grixchat.gothwad.workers.dev/" />
+    <meta property="og:title" content="GrixChat | Real-Time Secure Messaging & AI" />
+    <meta
+      property="og:description"
+      content="Experience the future of secure social messaging with GrixChat. Real-time chat, HD reels, and Grix AI redefined for ultimate security."
+    />
+    <meta
+      property="og:image"
+      content="https://grixchat.gothwad.workers.dev/assets/icon-512.png"
+    />
+    <meta property="og:site_name" content="GrixChat" />
+    <meta name="author" content="GrixChat Team" />
+    <meta property="og:author" content="GrixChat Team" />
+
+    <meta
+      property="og:image:secure_url"
+      content="https://grixchat.gothwad.workers.dev/assets/icon-512.png"
+    />
+
+    <meta
+      property="og:image:alt"
+      content="GrixChat Logo - Secure Social Messaging Platform"
+    />
+
+    <meta property="og:image:type" content="image/png" />
+
+    <meta property="og:locale" content="en_IN" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <meta name="twitter:title" content="GrixChat | Real-Time Secure Messaging & AI" />
+    <meta
+      name="twitter:description"
+      content="Experience the future of secure social messaging with GrixChat. Real-time chat, HD reels, and Grix AI redefined."
+    />
+    <meta
+      name="twitter:image"
+      content="https://grixchat.gothwad.workers.dev/assets/icon-512.png"
+    />
+    <meta name="twitter:url" content="https://grixchat.gothwad.workers.dev/" />
+
+    <meta name="twitter:site" content="@GrixChat" />
+    <meta name="twitter:creator" content="@GrixChat" />
+    <meta
+      name="twitter:image:alt"
+      content="GrixChat Logo - Secure Social Messaging Platform"
+    />
+
+    <!-- Disable Browser Caching for Dev -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <!-- JSON-LD Structured Data for Breadcrumbs -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [{
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://grixchat.gothwad.workers.dev/"
+        },{
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Chats",
+          "item": "https://grixchat.gothwad.workers.dev/chats"
+        },{
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Reels",
+          "item": "https://grixchat.gothwad.workers.dev/reels"
+        }]
+      }
+    </script>
+    
+    <script>
+      // Register Service Worker for PWA
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then(registration => {
+              console.log('SW registered: ', registration);
+            })
+            .catch(registrationError => {
+              console.log('SW registration failed: ', registrationError);
+            });
+        });
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
