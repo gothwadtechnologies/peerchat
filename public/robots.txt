@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /settings
+Disallow: /verify-email
+Disallow: /setup-lock
+Disallow: /verify-lock
+
+Sitemap: https://grixchat.gothwad.workers.dev/sitemap.xml
