@@ -1,0 +1,13 @@
+{
+  "name": "RTC GrixChat",
+  "description": "Instantly wipe existing codebase files to prepare your workspace for a new project upload.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation",
+    "notifications"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
