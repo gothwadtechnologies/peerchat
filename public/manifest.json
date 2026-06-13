@@ -1,0 +1,85 @@
+{
+  "id": "com.grixchat.app",
+  "name": "GrixChat",
+  "short_name": "GrixChat",
+  "description": "GrixChat - India's most secure and versatile social messaging platform. Connect, share reels, and chat with Grix AI.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "window-controls-overlay"],
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "background_color_dark": "#202124",
+  "theme_color_dark": "#202124",
+  "navigation_color": "#ffffff",
+  "navigation_color_dark": "#202124",
+  "navigation_divider_color": "#ffffff",
+  "navigation_divider_color_dark": "#202124",
+  "backgroundColorDark": "#202124",
+  "themeColorDark": "#202124",
+  "navigationColor": "#ffffff",
+  "navigationColorDark": "#202124",
+  "navigationDividerColor": "#ffffff",
+  "navigationDividerColorDark": "#202124",
+  "dir": "ltr",
+  "lang": "en-IN",
+  "categories": ["social", "communication", "lifestyle"],
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "Open Hub",
+      "url": "/hub",
+      "description": "Quickly open the Hub apps",
+      "icons": [{ "src": "/assets/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "New Chat",
+      "url": "/chats",
+      "description": "Start a new conversation",
+      "icons": [{ "src": "/assets/icon-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "icons": [
+    {
+      "src": "/assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icon-192-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "GrixChat Home Screen"
+    },
+    {
+      "src": "/assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "GrixChat Mobile View"
+    }
+  ]
+}
